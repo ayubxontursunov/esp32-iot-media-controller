@@ -6,7 +6,7 @@
 #define BTN3 18
 
 
-const char* ssid = "your hotspot";         // Your hotspot SSID
+const char* ssid = "your hotspot SSID";         // Your hotspot SSID
 const char* password = "your hostpot password";    // Your hotspot password
 
 // REMOVE THIS STATIC CONFIG — it causes IP conflict if subnet doesn't match
@@ -170,3 +170,4 @@ void loop() {
     }
   }
 }
+
